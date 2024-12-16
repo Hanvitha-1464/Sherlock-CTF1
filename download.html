@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Step 3: Download the Clue</title>
+  <style>
+     body {
+      text-align: center;
+      padding: 20px;
+      background-color: #222;
+      color: #eee;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; 
+    }
+    #next-step {
+      display: none;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    #clue-input {
+      text-align: center;
+      padding: 8px;
+      margin: 10px 0;
+      width: 200px;
+    }
+    a{
+      text-decoration: none;
+      color: #eee;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome, Detective!</h1>
+  <p>The answer lies beneath the surface. Seek and you shall find.</p>
+  <p>Once you uncover the secret hidden in the image, enter it below to proceed.</p>
+  <a id="download-button" href="Pic.png" download="Pic.png">Download the Clue</a>
+  <input type="text" id="clue-input" placeholder="Enter the clue..." />
+  <button id="next-step" onclick="goToNextStep()">Proceed to the Next Step</button>
+  <script src="download.js"></script>
+</body>
+</html>

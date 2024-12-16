@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(39, 37, 37);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+h1{
+    color: antiquewhite;
+}
+h3{
+    color:antiquewhite;
+}
+button{
+    background-color:  rgb(39, 37, 37);
+    color:  rgb(39, 37, 37);
+    box-shadow: none;
+    border: none;
+}
